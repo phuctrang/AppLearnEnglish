@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group >
+                <item
+                    android:id="@+id/nav_english1"
+                    android:icon="@drawable/book"
+                    android:title="English basic I" />
+                <item
+                    android:id="@+id/nav_english2"
+                    android:icon="@drawable/book"
+                    android:title="English basic II" />
+                <item
+                    android:icon="@drawable/heart"
+                    android:id="@+id/nav_favourite"
+                    android:title="Favourite"/>
+                <item
+                    android:icon="@drawable/settime"
+                    android:id="@+id/nav_setTime"
+                    android:title="Set break time"/>
+                <item
+                    android:title="Responding to exit"
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/exit"
+                    />
+        </group>
+        <group>
+
+        </group>
+</menu>

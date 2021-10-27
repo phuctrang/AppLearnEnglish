@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.english_basic1.PracticeGrammar1"
+    android:background="#E1D9D9"
+    >
+    <RelativeLayout
+        android:layout_marginTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="20dp">
+    <SearchView
+        android:background="@drawable/boder_edittext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/sv_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search now!"
+        >
+    </SearchView>
+    <TextView
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:background="#E4EAE9"
+        android:text="Input Tittle" />
+    </RelativeLayout>
+    <ListView
+        android:background="@drawable/boderlist"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvEB1"
+        android:cacheColorHint="#00000000"
+        android:paddingTop="10dp"
+        android:dividerHeight="3dp"
+        android:divider="#0B5951"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>

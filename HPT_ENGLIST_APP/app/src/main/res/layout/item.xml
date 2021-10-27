@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+
+    >
+    <ImageView
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_weight="2"
+        android:id="@+id/img_day"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        />
+    <LinearLayout
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:background="#E2EFEC"
+        android:orientation="vertical">
+        <TextView
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/tv_Title"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:text="Basic usage of [I am]"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#1985DA"/>
+        <LinearLayout
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:orientation="horizontal">
+            <TextView
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:id="@+id/tvopen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Opened: "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageButton
+                android:background="@drawable/fav22"
+                android:layout_marginLeft="450px"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:id="@+id/img_heart"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                >
+            </ImageButton>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

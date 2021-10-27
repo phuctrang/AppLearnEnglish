@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_english1">
+    <!--    điều hướng-->
+    <fragment
+        android:id="@+id/nav_english1"
+        android:name="com.example.hpt_english_app.ui.english_basic1.english_basic1_Fragment"
+        android:label="English_basic1"
+        tools:layout="@layout/fragment_english1" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_english2"
+        android:name="com.example.hpt_english_app.ui.english_basic2.english_basic2_Fragment"
+        android:label="English_basic2"
+        tools:layout="@layout/fragment_english2" />
+    <fragment
+        android:id="@+id/nav_favourite"
+        android:name="com.example.hpt_english_app.ui.Favourite.favourite_Fragment"
+        android:label="Favourite"
+        tools:layout="@layout/favourite" />
+    <fragment
+        android:id="@+id/nav_setTime"
+        android:name="com.example.hpt_english_app.ui.SetTime.settime_Fragment"
+        android:label="Set break time"
+        tools:layout="@layout/set_time" />
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.hpt_english_app.ui.exit_responding.exit_fra"
+        android:label="Responding to exit"
+        tools:layout="@layout/responding"/>
+
+</navigation>

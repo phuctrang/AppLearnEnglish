@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:background="@drawable/boderlist"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#569A08"
+            android:id="@+id/tvtittle"
+            android:layout_marginTop="16dp"
+            android:text="Basic usage of[I AM]"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+        </TextView>
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvnamegrammar"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="I'am"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+        </TextView>
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginRight="16dp"
+            android:id="@+id/tvcontent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="It is an abbreviation for the word 'I am'.
+It is used in combination with other words to tell someone about yourself or to describe something you are doing"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+        </TextView>
+
+        <TextView
+            android:textColor="#ECBB81"
+            android:layout_marginRight="16dp"
+            android:id="@+id/tvex"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Here are some examples:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"/>
+
+        <TextView
+            android:textColor="#BDC2C3"
+            android:layout_marginRight="16dp"
+
+            android:id="@+id/tvexamples"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="I'm so tired"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            />
+
+        <Button
+
+            android:id="@+id/btnpractice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/boder_edittext"
+            android:text="PRACTICE"
+            android:textColor="#E91E63"
+            android:textSize="40dp"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

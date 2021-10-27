@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.exit_responding.exit_fra"
+    android:orientation="vertical"
+    >
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginTop="1000px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cmt"
+        tools:ignore="MissingConstraints">
+    </pl.droidsonroids.gif.GifImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvhhh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ygygggguu"
+            android:textColor="#BA0F49"
+            android:textSize="50sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_marginTop="300px"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+
+                android:id="@+id/responding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/boder_edittext"
+                android:paddingLeft="5dp"
+                android:hint="input" />
+            <TextView
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:background="#E4EAE9"
+                android:text="Write your idea!" />
+        </RelativeLayout>
+        <Button
+            android:layout_marginTop="@android:dimen/app_icon_size"
+            android:layout_gravity="center"
+            android:id="@+id/gui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_edittext"
+            android:text="OK"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/responding"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="161dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

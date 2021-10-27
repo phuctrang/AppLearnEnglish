@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770371127524",
+    "project_id": "respond-user",
+    "storage_bucket": "respond-user.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770371127524:android:d6f487f198e502c33484f1",
+        "android_client_info": {
+          "package_name": "com.example.hpt_english_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770371127524-te3haia80lij3gj11rgs3kl3hr1f25rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcojCSh6ClVfWCXorRrfmQL531VBrsWRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770371127524-te3haia80lij3gj11rgs3kl3hr1f25rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
